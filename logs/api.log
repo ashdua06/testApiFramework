@@ -1,216 +1,96 @@
-[INFO ] 2022-01-16 21:43:04.986 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-16 21:43:04.991 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:43:04.994 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-16 21:43:05.024 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:43:05.026 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-16 21:43:05.027 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-16 21:43:06.974 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-16 21:43:06.975 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:43:06.977 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-16 21:43:06.988 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:43:06.991 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-16 21:43:06.991 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-16 21:43:09.011 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-16 21:43:09.012 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:43:09.012 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-16 21:43:09.019 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:43:09.020 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-16 21:43:09.020 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-16 21:43:10.946 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-16 21:43:10.946 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:43:10.947 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-16 21:43:10.953 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:43:10.954 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-16 21:43:10.955 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-16 21:52:09.909 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-16 21:52:09.930 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:52:09.933 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-16 21:52:09.963 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:52:09.966 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-16 21:52:09.966 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-16 21:52:11.745 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-16 21:52:11.746 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:52:11.747 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-16 21:52:11.753 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:52:11.755 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-16 21:52:11.756 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-16 21:52:13.572 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-16 21:52:13.572 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:52:13.572 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-16 21:52:13.577 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:52:13.577 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-16 21:52:13.578 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-16 21:52:15.393 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-16 21:52:15.394 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-16 21:52:15.394 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-16 21:52:15.399 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-16 21:52:15.400 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-16 21:52:15.400 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:12:25.325 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-19 19:12:25.331 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:12:25.334 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-19 19:12:25.379 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:12:25.382 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-19 19:12:25.383 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-19 19:12:27.235 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-19 19:12:27.236 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:12:27.236 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-19 19:12:27.255 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:12:27.257 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-19 19:12:27.258 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-19 19:12:28.882 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:12:28.883 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:12:28.883 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:12:28.890 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:12:28.890 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:12:28.891 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:12:30.504 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_3}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:12:30.504 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:12:30.505 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:12:30.508 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:12:30.509 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:12:30.509 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:37:39.509 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-19 19:37:39.513 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:39.513 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-19 19:37:39.539 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:39.542 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-19 19:37:39.542 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-19 19:37:41.326 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-19 19:37:41.328 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:41.329 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-19 19:37:41.346 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:41.347 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-19 19:37:41.348 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-19 19:37:42.927 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_4}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:37:42.929 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:42.929 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:37:42.932 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:42.933 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:37:42.933 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>64 ---- false
-[INFO ] 2022-01-19 19:37:44.525 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_4}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:37:44.525 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:44.525 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:37:44.527 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:44.528 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:37:44.528 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>64 ---- false
-[INFO ] 2022-01-19 19:37:45.932 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:37:45.933 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:45.935 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:37:45.939 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:45.941 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:37:45.942 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:37:47.686 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:37:47.686 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:37:47.686 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:37:47.693 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:37:47.695 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:37:47.695 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:40:51.257 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-19 19:40:51.260 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:40:51.261 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-19 19:40:51.282 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:40:51.284 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-19 19:40:51.285 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-19 19:40:52.926 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-19 19:40:52.927 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:40:52.927 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-19 19:40:52.934 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:40:52.935 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-19 19:40:52.936 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-19 19:40:54.638 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_4}
-Query Params: {name=dua}
-[INFO ] 2022-01-19 19:40:54.639 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:40:54.639 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"dua","age":64,"count":309}
-[INFO ] 2022-01-19 19:40:54.642 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:40:54.643 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>dua<br><b>Expected : </b>dua ---- true
-[INFO ] 2022-01-19 19:40:54.643 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>64<br><b>Expected : </b>64 ---- true
-[INFO ] 2022-01-19 19:40:56.098 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:40:56.099 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:40:56.099 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:40:56.101 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:40:56.101 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:40:56.102 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:40:57.738 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:40:57.739 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:40:57.739 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:40:57.741 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:40:57.741 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:40:57.742 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:42:22.885 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_1}
-Query Params: {name=himanshu}
-[INFO ] 2022-01-19 19:42:22.889 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:42:22.891 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"himanshu","age":31,"count":1311}
-[INFO ] 2022-01-19 19:42:22.915 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:42:22.917 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
-[INFO ] 2022-01-19 19:42:22.918 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31 ---- true
-[INFO ] 2022-01-19 19:42:24.795 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_2}
-Query Params: {name=claudio}
-[INFO ] 2022-01-19 19:42:24.796 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:42:24.797 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"claudio","age":55,"count":62859}
-[INFO ] 2022-01-19 19:42:24.808 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:42:24.810 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio ---- true
-[INFO ] 2022-01-19 19:42:24.810 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55 ---- true
-[INFO ] 2022-01-19 19:42:26.358 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:42:26.359 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:42:26.360 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:42:26.362 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:42:26.363 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:42:26.364 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
-[INFO ] 2022-01-19 19:42:28.053 [TestNG-test=Test Suite-1] BaseApi - GET API 
-Headers: {uniqueTrackingId=TC_5}
-Query Params: {name=john}
-[INFO ] 2022-01-19 19:42:28.054 [TestNG-test=Test Suite-1] BaseApi - API Request :null
-[INFO ] 2022-01-19 19:42:28.054 [TestNG-test=Test Suite-1] BaseApi - API Response :{"name":"john","age":58,"count":207250}
-[INFO ] 2022-01-19 19:42:28.056 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
-[INFO ] 2022-01-19 19:42:28.057 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
-[INFO ] 2022-01-19 19:42:28.064 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
+[INFO ] 2022-08-10 01:58:30.650 [main] BaseApi - POST API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:30.653 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:30.654 [main] BaseApi - API Response :{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-08-10 01:58:30.675 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:30.678 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:30.679 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>unknown<br><b>Expected : </b>unknown ---- true
+[INFO ] 2022-08-10 01:58:30.680 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>ok<br><b>Expected : </b>ok ---- true
+[INFO ] 2022-08-10 01:58:32.375 [main] BaseApi - POST API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:32.376 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:32.376 [main] BaseApi - API Response :{"code":200,"type":"unknown","message":"ok"}
+[INFO ] 2022-08-10 01:58:32.386 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:32.392 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:32.393 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>unknown<br><b>Expected : </b>unknown ---- true
+[INFO ] 2022-08-10 01:58:32.394 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>ok<br><b>Expected : </b>ok ---- true
+[INFO ] 2022-08-10 01:58:34.190 [main] BaseApi - PUT API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:34.191 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:34.191 [main] BaseApi - API Response :{"code":200,"type":"unknown","message":"1111"}
+[INFO ] 2022-08-10 01:58:34.203 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:34.204 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:34.205 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>unknown<br><b>Expected : </b>unknown ---- true
+[INFO ] 2022-08-10 01:58:34.205 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>1111<br><b>Expected : </b>1111 ---- true
+[INFO ] 2022-08-10 01:58:37.066 [main] BaseApi - PUT API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:37.066 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:37.066 [main] BaseApi - API Response :{"code":200,"type":"unknown","message":"1112"}
+[INFO ] 2022-08-10 01:58:37.074 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:37.076 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:37.077 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>unknown<br><b>Expected : </b>unknown ---- true
+[INFO ] 2022-08-10 01:58:37.078 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>1112<br><b>Expected : </b>1112 ---- true
+[INFO ] 2022-08-10 01:58:38.714 [main] BaseApi - PUT API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:38.715 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:38.715 [main] BaseApi - API Response :{"code":200,"type":"unknown","message":"1113"}
+[INFO ] 2022-08-10 01:58:38.718 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:38.719 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:38.720 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>unknown<br><b>Expected : </b>unknown ---- true
+[INFO ] 2022-08-10 01:58:38.721 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>1113<br><b>Expected : </b>1113 ---- true
+[INFO ] 2022-08-10 01:58:40.563 [main] BaseApi - GET API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:40.564 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:40.564 [main] BaseApi - API Response :{"id":1111,"username":"hdua_edit","firstName":"himanshu","lastName":"dua","email":"ashdua06@gmail.com","password":"testapi@123","phone":"9654335872","userStatus":1}
+[INFO ] 2022-08-10 01:58:40.598 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:40.614 [main] ReportHelper -  Id Validation in response<br><b>Actual : </b>1111.0<br><b>Expected : </b>1111.0 ---- true
+[INFO ] 2022-08-10 01:58:40.615 [main] ReportHelper - UserName Validation in response<br><b>Actual : </b>hdua_edit<br><b>Expected : </b>hdua_edit ---- true
+[INFO ] 2022-08-10 01:58:40.616 [main] ReportHelper - FirstName Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu ---- true
+[INFO ] 2022-08-10 01:58:40.616 [main] ReportHelper - LastName Validation in response<br><b>Actual : </b>dua<br><b>Expected : </b>dua ---- true
+[INFO ] 2022-08-10 01:58:40.617 [main] ReportHelper - Email Validation in response<br><b>Actual : </b>ashdua06@gmail.com<br><b>Expected : </b>ashdua06@gmail.com ---- true
+[INFO ] 2022-08-10 01:58:40.617 [main] ReportHelper - Password Validation in response<br><b>Actual : </b>testapi@123<br><b>Expected : </b>testapi@123 ---- true
+[INFO ] 2022-08-10 01:58:40.617 [main] ReportHelper - Phone Validation in response<br><b>Actual : </b>9654335872<br><b>Expected : </b>9654335872 ---- true
+[INFO ] 2022-08-10 01:58:40.618 [main] ReportHelper - UserStatus Validation in response<br><b>Actual : </b>1<br><b>Expected : </b>1 ---- true
+[INFO ] 2022-08-10 01:58:42.264 [main] BaseApi - GET API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:42.265 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:42.265 [main] BaseApi - API Response :{"id":1112,"username":"hdua1_edit","firstName":"himanshu1","lastName":"dua1_edit","email":"ashdua07@gmail.com","password":"testapi@123_edit","phone":"9654335873","userStatus":3}
+[INFO ] 2022-08-10 01:58:42.276 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:42.281 [main] ReportHelper -  Id Validation in response<br><b>Actual : </b>1112.0<br><b>Expected : </b>1112.0 ---- true
+[INFO ] 2022-08-10 01:58:42.282 [main] ReportHelper - UserName Validation in response<br><b>Actual : </b>hdua1_edit<br><b>Expected : </b>hdua1_edit ---- true
+[INFO ] 2022-08-10 01:58:42.282 [main] ReportHelper - FirstName Validation in response<br><b>Actual : </b>himanshu1<br><b>Expected : </b>himanshu1 ---- true
+[INFO ] 2022-08-10 01:58:42.283 [main] ReportHelper - LastName Validation in response<br><b>Actual : </b>dua1_edit<br><b>Expected : </b>dua1_edit ---- true
+[INFO ] 2022-08-10 01:58:42.283 [main] ReportHelper - Email Validation in response<br><b>Actual : </b>ashdua07@gmail.com<br><b>Expected : </b>ashdua07@gmail.com ---- true
+[INFO ] 2022-08-10 01:58:42.284 [main] ReportHelper - Password Validation in response<br><b>Actual : </b>testapi@123_edit<br><b>Expected : </b>testapi@123_edit ---- true
+[INFO ] 2022-08-10 01:58:42.284 [main] ReportHelper - Phone Validation in response<br><b>Actual : </b>9654335873<br><b>Expected : </b>9654335873 ---- true
+[INFO ] 2022-08-10 01:58:42.285 [main] ReportHelper - UserStatus Validation in response<br><b>Actual : </b>3<br><b>Expected : </b>3 ---- true
+[INFO ] 2022-08-10 01:58:44.036 [main] BaseApi - GET API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:44.038 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:44.038 [main] BaseApi - API Response :{"id":1113,"username":"hdua3","firstName":"himanshu3","lastName":"dua3","email":"ashdua07@gmail.com","password":"testapi@123","phone":"9654335873","userStatus":2}
+[INFO ] 2022-08-10 01:58:44.045 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
+[INFO ] 2022-08-10 01:58:44.058 [main] ReportHelper -  Id Validation in response<br><b>Actual : </b>1113.0<br><b>Expected : </b>1113.0 ---- true
+[INFO ] 2022-08-10 01:58:44.060 [main] ReportHelper - UserName Validation in response<br><b>Actual : </b>hdua3<br><b>Expected : </b>hdua3 ---- true
+[INFO ] 2022-08-10 01:58:44.060 [main] ReportHelper - FirstName Validation in response<br><b>Actual : </b>himanshu3<br><b>Expected : </b>himanshu3 ---- true
+[INFO ] 2022-08-10 01:58:44.061 [main] ReportHelper - LastName Validation in response<br><b>Actual : </b>dua3<br><b>Expected : </b>dua3 ---- true
+[INFO ] 2022-08-10 01:58:44.062 [main] ReportHelper - Email Validation in response<br><b>Actual : </b>ashdua07@gmail.com<br><b>Expected : </b>ashdua07@gmail.com ---- true
+[INFO ] 2022-08-10 01:58:44.062 [main] ReportHelper - Password Validation in response<br><b>Actual : </b>testapi@123<br><b>Expected : </b>testapi@123 ---- true
+[INFO ] 2022-08-10 01:58:44.063 [main] ReportHelper - Phone Validation in response<br><b>Actual : </b>9654335873<br><b>Expected : </b>9654335873 ---- true
+[INFO ] 2022-08-10 01:58:44.065 [main] ReportHelper - UserStatus Validation in response<br><b>Actual : </b>2<br><b>Expected : </b>2 ---- true
+[INFO ] 2022-08-10 01:58:45.767 [main] BaseApi - GET API 
+Headers: {}
+Query Params: {}
+[INFO ] 2022-08-10 01:58:45.768 [main] BaseApi - API Request :null
+[INFO ] 2022-08-10 01:58:45.768 [main] BaseApi - API Response :{"code":1,"type":"error","message":"User not found"}
+[INFO ] 2022-08-10 01:58:45.771 [main] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>404<br><b>Expected : </b>404 ---- true
+[INFO ] 2022-08-10 01:58:45.772 [main] ReportHelper -  Code Validation in response<br><b>Actual : </b>1<br><b>Expected : </b>1 ---- true
+[INFO ] 2022-08-10 01:58:45.773 [main] ReportHelper -  Type Validation in response<br><b>Actual : </b>error<br><b>Expected : </b>error ---- true
+[INFO ] 2022-08-10 01:58:45.774 [main] ReportHelper -  Message Validation in response<br><b>Actual : </b>User not found<br><b>Expected : </b>User not found ---- true

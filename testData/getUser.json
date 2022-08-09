@@ -1,0 +1,59 @@
+[
+  {
+  "userName": "hdua_edit",
+  "testMeta": {
+    "tcDescription": {
+      "TCDESCRIPTION": "get user updated with only username "
+    },
+    "expectedStatusCode":200,
+    "expectedType": "unknown",
+    "expectedMessage": "ok"
+  },
+  "testCaseId": "TC_1",
+  "active_test": true,
+  "test_tag": ["smoke","regression"]
+  },
+  {
+    "userName": "hdua1_edit",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "get user updated with multiple fields username,firstName,lastname and password "
+      },
+      "expectedStatusCode":200,
+      "expectedType": "unknown",
+      "expectedMessage": "ok"
+    },
+    "testCaseId": "TC_2",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "userName": "hdua3",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "get user updated with no fields "
+      },
+      "expectedStatusCode":200,
+      "expectedType": "unknown",
+      "expectedMessage": "ok"
+    },
+    "testCaseId": "TC_3",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "userName": "hdua4",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "get user that does not exist "
+      },
+      "expectedStatusCode":404,
+      "expectedType": "error",
+      "expectedMessage": "User not found",
+      "expectedCode": 1
+    },
+    "testCaseId": "TC_4",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "request": [
+     {
+          "id": 1111,
+          "username": "hdua",
+          "firstName": "himanshu",
+          "lastName": "dua",
+          "email": "ashdua06@gmail.com",
+          "password": "testapi@123",
+          "phone": "9654335872",
+          "userStatus": 1
+        },{
+          "id": 1112,
+          "username": "hdua1",
+          "firstName": "himanshu1",
+          "lastName": "dua1",
+          "email": "ashdua07@gmail.com",
+          "password": "testapi@123",
+          "phone": "9654335873",
+          "userStatus": 2
+        }
+    ],
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Create more than one user"
+      },
+      "expectedStatusCode":200,
+      "expectedType": "unknown",
+      "expectedMessage": "ok",
+      "expectedCode": 200
+    },
+    "testCaseId": "TC_1",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "request": [
+      {
+        "id": 1113,
+        "username": "hdua3",
+        "firstName": "himanshu3",
+        "lastName": "dua3",
+        "email": "ashdua07@gmail.com",
+        "password": "testapi@123",
+        "phone": "9654335873",
+        "userStatus": 2
+      }
+    ],
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Create single user"
+      },
+      "expectedStatusCode":200,
+      "expectedType": "unknown",
+      "expectedMessage": "ok",
+      "expectedCode": 200
+    },
+    "testCaseId": "TC_2",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  }
+]

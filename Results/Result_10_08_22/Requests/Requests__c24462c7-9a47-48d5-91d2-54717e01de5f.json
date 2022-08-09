@@ -1,0 +1,10 @@
+Request body: {
+  "id" : 1113,
+  "username" : "hdua3",
+  "firstName" : "himanshu3",
+  "lastName" : "dua3",
+  "email" : "ashdua07@gmail.com",
+  "password" : "testapi@123",
+  "phone" : "9654335873",
+  "userStatus" : 2
+}
