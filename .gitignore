@@ -1,9 +1,6 @@
 target/
-#Results/
 .idea
 TestApiProject.iml
-#*.log
-#logs/
 .DS_Store
 */.DS_Store
 .classpath

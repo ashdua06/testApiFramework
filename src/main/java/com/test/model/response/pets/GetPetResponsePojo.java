@@ -17,6 +17,7 @@ public class GetPetResponsePojo implements APIInterface.ResponsePojo{
     private List<Tags> tags;
     private String status;
 
+
     @Getter
     @Setter
     @JsonIgnoreProperties(ignoreUnknown = true)
@@ -34,18 +35,20 @@ public class GetPetResponsePojo implements APIInterface.ResponsePojo{
         private long id;
         private String name;
     }
+
     @Override
-    public boolean isSuccess() {
-        return false;
+    public int getCode() {
+        return 0;
     }
 
     @Override
-    public Object getErrors() {
+    public String getType() {
         return null;
     }
 
     @Override
-    public Object getBody() {
+    public String getMessage() {
         return null;
     }
+
 }

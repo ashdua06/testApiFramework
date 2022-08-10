@@ -22,6 +22,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.internal.Utils;
 public class ReportHelper implements ReportConstants{
+    private String curlFilePath;
     static int count = 0;
     static int passCount = 0;
     static int failCount = 0;
@@ -31,8 +32,22 @@ public class ReportHelper implements ReportConstants{
     private static Logger logger = LoggingManager.getLogger(ReportHelper.class);
     private static ThreadLocal<String> threadLocalResultFileStringPath = new InheritableThreadLocal();
     private static String suiteFileStringPath;
+    private static volatile ReportHelper instance;
 
     public ReportHelper() {
+    }
+    public static ReportHelper getInstance(){
+        if(instance==null)
+            instance=new ReportHelper();
+        return instance;
+    }
+
+    public  String getCurlFilePath() {
+        return curlFilePath;
+    }
+
+    public void setCurlFilePath(String curlFilePath) {
+        this.curlFilePath = curlFilePath;
     }
 
     public static String getResultFolderpath() {
@@ -188,36 +203,12 @@ public class ReportHelper implements ReportConstants{
 
     }
 
-    public String logException(String methodName, Throwable exception) {
-        String exceptionFilePath = "";
-
-        try {
-            UUID randNo = UUID.randomUUID();
-            exceptionFilePath = resultFolderpath + "/" + methodName + "_Exception_" + randNo + ".html";
-            String stackTraceLine = "";
-            String str = Utils.stackTrace(exception, true)[0];
-            BufferedWriter resultFile = new BufferedWriter(new FileWriter(exceptionFilePath, true));
-            resultFile.append("<html></head><body><title>Exception Stack Trace</title>");
-            Scanner scanner = new Scanner(str);
-
-            while(scanner.hasNext()) {
-                stackTraceLine = scanner.nextLine();
-                resultFile.append(stackTraceLine + "<br>");
-            }
-
-            resultFile.close();
-        } catch (Exception var9) {
-            logger.error("Exception not reported - " + var9);
-        }
-
-        return exceptionFilePath;
-    }
 
     public void appendMethodInformationInSuite(String scenarioName, String methodName, String methodFilePath, String status, Throwable exception) {
         boolean hasThrowable = exception != null;
         String exceptionFilePath = "";
         if (hasThrowable) {
-            exceptionFilePath = this.logException(methodName, exception);
+            exceptionFilePath = FileHelper.getInstance().createExceptionFile(methodName, exception);
             exceptionFilePath = "." + exceptionFilePath.split("/Results")[1];
         }
 

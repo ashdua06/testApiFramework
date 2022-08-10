@@ -4,9 +4,11 @@ import com.test.helpers.api.MethodType;
 import com.test.helpers.report.FileHelper;
 import com.test.helpers.report.LoggingManager;
 import com.test.helpers.report.ReportHelper;
+import com.test.helpers.utils.curlLoggingUtils.CurlLoggingRestAssuredConfigBuilder;
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.parsing.Parser;
@@ -241,22 +243,23 @@ public class BaseApi {
                 .addFilter(new ResponseLoggingFilter()).build();
         Response response;
         RestAssured.defaultParser = Parser.JSON;
+        RestAssuredConfig config = new CurlLoggingRestAssuredConfigBuilder(captureAPIDetails).build();
 
         switch (method) {
             case GET:
-                response = given().spec(requestSpecification).when().redirects().follow(redirectFlag).get();
+                response = given().config(config).spec(requestSpecification).when().redirects().follow(redirectFlag).get();
                 break;
             case POST:
-                response = given().spec(requestSpecification).when().redirects().follow(redirectFlag).post();
+                response = given().config(config).spec(requestSpecification).when().redirects().follow(redirectFlag).post();
                 break;
             case PUT:
-                response = given().spec(requestSpecification).when().redirects().follow(redirectFlag).put();
+                response = given().config(config).spec(requestSpecification).when().redirects().follow(redirectFlag).put();
                 break;
             case DELETE:
-                response = given().spec(requestSpecification).when().redirects().follow(redirectFlag).delete();
+                response = given().config(config).spec(requestSpecification).when().redirects().follow(redirectFlag).delete();
                 break;
             case PATCH:
-                response = given().spec(requestSpecification).when().redirects().follow(redirectFlag).patch();
+                response = given().config(config).spec(requestSpecification).when().redirects().follow(redirectFlag).patch();
                 break;
             default:
                 throw new RuntimeException("API method not specified");
@@ -296,7 +299,8 @@ public class BaseApi {
             String responseFilePath = fileHelper.createResponseJsonFile(response, "");
 
             String reportFolder = reporter.getResultFileStringPath();
-            reporter.appendresultHTMLReport(reportFolder, url, "<a href='" + requestFilePath + "'>Request Data</a>", "<a href='" + responseFilePath + "'>Response Data</a>", "Response Time(in msec) :- " + String.valueOf(responseTime), "", "", headers);
+          //  reporter.appendresultHTMLReport(reportFolder, url, "<a href='" + requestFilePath + "'>Request Data</a>", "<a href='" + responseFilePath + "'>Response Data</a>", "Response Time(in msec) :- " + String.valueOf(responseTime), "", "", headers);
+            reporter.appendresultHTMLReport(reportFolder, url, "<a href='" + requestFilePath + "'>Request Data</a>", "<a href='" + responseFilePath + "'>Response Data</a>", "Response Time(in msec) :- " + String.valueOf(responseTime), "<a href='" + ReportHelper.getInstance().getCurlFilePath() + "'>Curl</a>", "", headers);
 
         }
         catch (Exception e){

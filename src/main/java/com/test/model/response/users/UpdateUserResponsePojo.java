@@ -12,20 +12,5 @@ public class UpdateUserResponsePojo implements APIInterface.ResponsePojo {
     private int code;
     private String type;
     private String message;
-
-    @Override
-    public boolean isSuccess() {
-        return false;
-    }
-
-    @Override
-    public Object getErrors() {
-        return null;
-    }
-
-    @Override
-    public Object getBody() {
-        return null;
-    }
 }
 

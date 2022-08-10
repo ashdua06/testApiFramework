@@ -1,14 +1,5 @@
                     **API Test Framework**
 
-Framework for API automation testing
-
-**Example Used in framework:**
-Used public api to predict the age of a person based on their name.
-
-Sample API URL:
-https://api.agify.io?name=himanshu
-
-
 **Components in src/main/java**
 1) apiRequestBuilder: This contains request builder class for each API that need to be automated. This implements API Interface and extends BaseAPI class and define the structure of API
 2) exception: Contains custom exceptions
@@ -17,13 +8,14 @@ https://api.agify.io?name=himanshu
 5) model: It contains pojo classes for request and response
 6) testSetup: It contains classes to create testNg xml to run automation suite
 7) validators: It contains classes for response validation
+8) testData: Used json file as a source of test data and used dataprovider to run tests
 
 **Components in src/test/java/systemTesting**
 1) basePackage: It contains class to get test data from data source.
 2) testPackages: It contains test classes
 
 **What all framework supports**
-1) Reporting: Html Report generates in Report folder at the end of suite run. Report contains all assertions , request body , response body and exceptions in case of failures
+1) Reporting: Html Report generates in Report folder at the end of suite run. Report contains all assertions , request body , response body ,curl logging and exceptions in case of failures
 2) Logging: Log4J used to generate logs in logs folder
 3) Profiling: Used profiles to run test suite on different environment like TEST , UAT ,DEV
 4) testNg xml auto creation: testNg xml generates at the beginning during run time based on input parameters
@@ -31,6 +23,8 @@ https://api.agify.io?name=himanshu
 6) Jenkins supported: Can be run through jenkins by sending below command and input parameter  mvn clean install -PProfile -DTestingType=testPackage
 7) Singleton: Used singleton design pattern at many places in order to make classes thread safe
 8) Retry Failed cases: Added listener that retries failed cases
+9) Parallel run through testng xml
+10) Curl logging in report
 
 
 **How to run automation suite**
@@ -42,4 +36,17 @@ https://api.agify.io?name=himanshu
 
 
 
+**Automation Suite run commands**
+- mvn clean install -DsuiteType=package  (This will run all test packages under system testing)
+- mvn clean install -DsuiteType=package -DTestingType=pets  (This will run all test under systemTesting.pets package)
+- mvn clean install -DsuiteType=package -DTestingType=users  (This will run all test under systemTesting.users package)
+- mvn clean install -DsuiteType=group -DTestingType=smoke  (This will run all tests tagged with group name smoke under systemTesting package)
+- mvn clean install -DsuiteType=group -DTestingType=regression  (This will run all tests tagged with group name regression under systemTesting package)
+- mvn clean install -DsuiteType=system  (This will run all test cases in systemTesting package)
 
+
+**Enhancements**
+- API schema validation
+- Hard assertion
+- API Performance report
+- Test data management through DB

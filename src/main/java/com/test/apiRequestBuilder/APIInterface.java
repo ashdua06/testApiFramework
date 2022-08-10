@@ -10,9 +10,9 @@ public interface APIInterface {
     void createRequestJsonAndExecute();
 
     interface ResponsePojo{
-        boolean isSuccess();
-        Object getErrors();
-        Object getBody();
+        int getCode();
+        String getType();
+        String getMessage();
     }
 
 
