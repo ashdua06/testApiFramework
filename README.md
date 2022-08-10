@@ -9,6 +9,7 @@
 6) testSetup: It contains classes to create testNg xml to run automation suite
 7) validators: It contains classes for response validation
 8) testData: Used json file as a source of test data and used dataprovider to run tests
+9) Testing Framework: Used TestNG for writing test cases and data provider to support data driven framework
 
 **Components in src/test/java/systemTesting**
 1) basePackage: It contains class to get test data from data source.
