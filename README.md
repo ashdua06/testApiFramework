@@ -50,3 +50,5 @@
 - Hard assertion
 - API Performance report
 - Test data management through DB
+
+<img width="1063" alt="Screenshot 2022-08-10 at 10 34 26 PM" src="https://user-images.githubusercontent.com/43670083/183976341-726d0a60-418c-4cce-8bbc-730dc9aaf6a4.png">
