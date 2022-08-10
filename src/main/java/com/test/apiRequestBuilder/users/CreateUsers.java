@@ -7,12 +7,8 @@ import com.test.global.LocalConfig;
 import com.test.helpers.api.BaseApi;
 import com.test.helpers.api.*;
 import com.test.model.request.users.CreateUserRequestPojo;
-import com.test.model.request.users.UserRequestPojo;
 import com.test.model.response.users.CreateUsersResponsePojo;
 import io.restassured.response.Response;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class CreateUsers extends BaseApi implements APIInterface {
     private Response response;

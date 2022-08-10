@@ -1,0 +1,14 @@
+Request body: {
+  "id" : 10103,
+  "category" : {
+    "id" : 1013,
+    "name" : "fishes"
+  },
+  "name" : "jelly",
+  "photoUrls" : [ "http://jelly.png" ],
+  "tags" : [ {
+    "id" : 103,
+    "name" : "fish"
+  } ],
+  "status" : "available"
+}

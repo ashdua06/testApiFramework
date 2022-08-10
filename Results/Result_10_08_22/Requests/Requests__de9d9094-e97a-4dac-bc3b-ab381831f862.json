@@ -1,0 +1,14 @@
+Request body: {
+  "id" : 10102,
+  "category" : {
+    "id" : 1012,
+    "name" : "cats"
+  },
+  "name" : "millo",
+  "photoUrls" : [ "http://millo.png" ],
+  "tags" : [ {
+    "id" : 102,
+    "name" : "cat"
+  } ],
+  "status" : "pending"
+}

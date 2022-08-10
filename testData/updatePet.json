@@ -1,0 +1,88 @@
+[
+  {
+    "request": {
+      "id": 10101,
+      "category": {
+        "id": 1011,
+        "name": "dogs"
+      },
+      "name": "bruno_update",
+      "photoUrls": [
+        "http://brunoupdate.png"
+      ],
+      "tags": [
+        {
+          "id": 101,
+          "name": "dog"
+        }
+      ],
+      "status": "pending"
+    },
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Update status to pending and other details for Pet with category dog"
+      },
+      "expectedStatusCode":200
+    },
+    "testCaseId": "TC_1",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "request": {
+      "id": 10102,
+      "category": {
+        "id": 1012,
+        "name": "cats"
+      },
+      "name": "millo",
+      "photoUrls": [
+        "http://milloupdate.png"
+      ],
+      "tags": [
+        {
+          "id": 102,
+          "name": "cat"
+        }
+      ],
+      "status": "sold"
+    },
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Update status to sold and other details for Pet with category cat"
+      },
+      "expectedStatusCode":200
+    },
+    "testCaseId": "TC_2",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "request": {
+      "id": 10103,
+      "category": {
+        "id": 1013,
+        "name": "fishes"
+      },
+      "name": "jelly",
+      "photoUrls": [
+        "http://jelly.png"
+      ],
+      "tags": [
+        {
+          "id": 103,
+          "name": "fish"
+        }
+      ],
+      "status": "available"
+    },
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Update status to available and other details for Pet with category fish "
+      },
+      "expectedStatusCode":200
+    },
+    "testCaseId": "TC_3",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  }]

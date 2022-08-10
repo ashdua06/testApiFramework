@@ -44,6 +44,18 @@ public class CustomAssert {
         Assert.assertEquals(actual, expected, message);
     }
 
+    public static void assertEquals(Long actual, Long expected, String message) {
+        String str = message + "<br><b>Actual : </b>" + actual + "<br><b>Expected : </b>" + expected;
+        ReportHelper.reporterLogging(actual.longValue()==expected.longValue()?true:false,str);
+        Assert.assertEquals(actual, expected, message);
+    }
+
+    public static void assertEquals(long actual, long expected, String message) {
+        String str = message + "<br><b>Actual : </b>" + actual + "<br><b>Expected : </b>" + expected;
+        ReportHelper.reporterLogging(actual==expected?true:false,str);
+        Assert.assertEquals(actual, expected, message);
+    }
+
     public static void assertEquals(int actual, int expected, String message) {
         String str = message + "<br><b>Actual : </b>" + actual + "<br><b>Expected : </b>" + expected;
         ReportHelper.reporterLogging(actual==expected?true:false,str);

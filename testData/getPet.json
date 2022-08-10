@@ -1,0 +1,40 @@
+[
+  {
+   "status": "available",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Get pet with status available"
+      },
+      "expectedStatusCode":200,
+      "expectedPetId": [10103]
+    },
+    "testCaseId": "TC_1",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "status": "pending",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Get pet with status pending"
+      },
+      "expectedStatusCode":200,
+      "expectedPetId": [10101]
+    },
+    "testCaseId": "TC_2",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  },
+  {
+    "status": "sold",
+    "testMeta": {
+      "tcDescription": {
+        "TCDESCRIPTION": "Get pet with status sold"
+      },
+      "expectedStatusCode":200,
+      "expectedPetId": [10102]
+    },
+    "testCaseId": "TC_3",
+    "active_test": true,
+    "test_tag": ["smoke","regression"]
+  }]

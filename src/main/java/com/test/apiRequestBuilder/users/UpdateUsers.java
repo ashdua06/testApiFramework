@@ -6,7 +6,6 @@ import com.test.global.LocalConfig;
 import com.test.helpers.api.BaseApi;
 import com.test.helpers.api.*;
 import com.test.model.request.users.UpdateUserRequestPojo;
-import com.test.model.request.users.UserRequestPojo;
 import com.test.model.response.users.UpdateUserResponsePojo;
 import io.restassured.response.Response;
 public class UpdateUsers extends BaseApi implements APIInterface {

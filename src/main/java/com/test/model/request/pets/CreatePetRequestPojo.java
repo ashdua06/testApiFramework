@@ -1,9 +1,8 @@
-package com.test.model.request.users;
+package com.test.model.request.pets;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import com.test.apiRequestBuilder.APIInterface;
-
 import java.util.List;
 import java.util.Map;
 
@@ -11,8 +10,8 @@ import java.util.Map;
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class UserRequestPojo implements APIInterface.RequestPojo{
-    private List<Request> request;
+public class CreatePetRequestPojo implements APIInterface.RequestPojo {
+    private Request request;
     private TestMeta testMeta;
     private String testCaseId;
     private String active_test;
@@ -23,38 +22,32 @@ public class UserRequestPojo implements APIInterface.RequestPojo{
     @JsonIgnoreProperties(ignoreUnknown = true)
     @JsonInclude(JsonInclude.Include.NON_NULL)
     public static class Request{
-        private CreateRequest createRequest;
-        private UpdateRequest updateRequest;
+        private long id;
+        private Category category;
+        private String name;
+        private List<String> photoUrls;
+        private List<Tags> tags;
+        private String status;
     }
 
     @Getter
     @Setter
     @JsonIgnoreProperties(ignoreUnknown = true)
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    public static class CreateRequest{
+    public static class Category{
         private long id;
-        private String username;
-        private String firstName;
-        private String lastName;
-        private String email;
-        private String password;
-        private String phone;
-        private int userStatus;
+        private String name;
     }
+
     @Getter
     @Setter
     @JsonIgnoreProperties(ignoreUnknown = true)
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    public static class UpdateRequest{
+    public static class Tags{
         private long id;
-        private String username;
-        private String firstName;
-        private String lastName;
-        private String email;
-        private String password;
-        private String phone;
-        private int userStatus;
+        private String name;
     }
+
     @Getter
     @Setter
     @JsonIgnoreProperties(ignoreUnknown = true)
@@ -62,8 +55,5 @@ public class UserRequestPojo implements APIInterface.RequestPojo{
     public static class TestMeta{
         private Map<String,String> tcDescription;
         private int expectedStatusCode;
-        private String expectedType;
-        private String expectedMessage;
     }
-
 }
